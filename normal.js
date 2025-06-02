@@ -1,6 +1,10 @@
-let numero = prompt('digite um numero);
-if (numero >= 0) {
-    alert('Seu numero é positivo');
+let semanas = prompt('qual é o dia da semana?');
+let sabado = ('sabado');
+let domingo = ('domingo');
+if (semanas == sabado) {
+    alert('Bom final de semana!');
+} if (semanas == domingo) {
+    alert('Bom final de semana!');
 } else {
-    alert('Seu numero é negativo');
+    alert('Boa semana!');
 }
